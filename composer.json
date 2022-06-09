@@ -1,0 +1,32 @@
+{
+    "name": "terpomoj/pipe",
+    "description": "Pipe operator alternative.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BinotaLIU",
+            "email": "binota@binota.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Terpomoj\\Pipe\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
